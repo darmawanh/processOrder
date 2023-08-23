@@ -5,5 +5,20 @@
     "order_status": "Processed",
     "last_updated_timestamp": "1671916800000",
     "special_order": false
+  },
+  "success2": {
+    "order_id": "1234567890",
+    "order_description": "sample description",
+    "order_status": "Processed",
+    "last_updated_timestamp": "1671916800000",
+    "special_order": true
+  },
+  "error-constraint": {
+    "error_code": 123,
+    "error_message": "Value length error"
+  },
+  "error-missing": {
+    "error_code": 321,
+    "error_message": "Missing body value"
   }
 }
